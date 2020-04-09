@@ -1,0 +1,63 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.blackbox {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.link0 {
+    color: #1A1A1A;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 10;
+}
+
+.button-1{
+    text-align: center;
+    width:140px;
+    height:50px;
+    border:2px solid #F39926;
+    
+    text-align:center;
+    cursor:pointer;
+    position: relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 auto;
+  }
+
+  .button-1 a{
+    text-align: center;
+    font-family:arial;
+    font-size:16px;
+    color:#F39926;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-1{
+    text-align: center;
+    width:140px;
+    height:50px;
+    top:-2px;
+    right:-140px;
+    background:#F39926;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .button-1:hover .eff-1{
+    text-align: center;
+    right:0;
+  }
+  .button-1:hover a{
+    text-align: center;
+    color:#fff;
+  }
+  

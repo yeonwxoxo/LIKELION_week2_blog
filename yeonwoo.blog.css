@@ -1,0 +1,146 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.blackbox {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.link0 {
+    color: white;
+}
+
+.tab_menu_container {
+    display: flex;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.tab_button {
+    color: white;
+    font-size: 120%;
+    font-weight: 300%;
+    width: 120px;
+    height: 80px;
+    border-bottom: solid #F39926; 1px; 
+    font-weight: 400px;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #1A1A1A;
+}
+
+.whoami {
+    margin-top: 72px;
+    font-size: 152px;
+    color: white;
+    font-weight: 950;
+}
+
+.whoorange {
+    color: #F39926;
+}
+
+.emoji3img {
+    position: relative;
+    opacity: 0.3;
+}
+
+
+.pmdesignerdeveloper {
+    
+    color: white;
+    font-size: 32px;   
+    font-weight: lighter;
+}
+
+.allofthem {
+
+    color: white;
+    font-size: 72px;
+    font-weight: 600;
+   
+}
+
+
+.orangeline {
+    text-align: center;
+    
+    left: 565px;
+    top: 1600px;
+}
+
+
+.link {
+    color: rgb(132, 220, 255);
+}
+
+.hyl {
+
+    color: white;
+    font-size: 92px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+h2 {
+      color: white;
+      font-size: 22px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+  }
+
+ 
+  .button-1{
+    text-align: center;
+    width:140px;
+    height:50px;
+    border:2px solid #F39926;
+    
+    text-align:center;
+    cursor:pointer;
+    position: relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    margin:0 auto;
+  }
+
+  .button-1 a{
+    text-align: center;
+    font-family:arial;
+    font-size:16px;
+    color:#F39926;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-1{
+    text-align: center;
+    width:140px;
+    height:50px;
+    top:-2px;
+    right:-140px;
+    background:#F39926;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .button-1:hover .eff-1{
+    text-align: center;
+    right:0;
+  }
+  .button-1:hover a{
+    text-align: center;
+    color:#fff;
+  }
+  
